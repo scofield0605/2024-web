@@ -1,0 +1,51 @@
+<!--.表單HTMLs..-->
+<DOCTYPE html></DOCTYPE>
+<html>
+
+<head>
+    <title>我的網頁標題</title>
+</head>
+<form action="/formprocess-php" method="post">
+    <p>帳號：<input type="text" name="account" placeholder="請輸入帳號"></p>
+    
+    <p> 密碼：<input type="password" name="password" placeholder="密碼"></p>
+    <input type="checkbox" name="Like" value="apple"> apple <br>
+    <input type="checkbox" name="Like" value="Banana"> Banana <br>
+    <input type="checkbox" name="Like" value="Pineapple"> Pineapple <br>
+    <input type="checkbox" name="Like" value="strawberry"> strawberry
+
+    <p>飲料甜度：<br>
+    <input type="radio" name="sugar" value="many"> many<br>
+    <input type="radio" name="sugar" value="medium"> medium<br>
+    <input type="radio" name="sugar" value="less"> less<br>
+    </p>
+    <p>個資<br>
+    <p>姓名：<input type="tel" name="account" ></p>
+    <p> 電話：<input type="tel" name="password" ></p>
+    <p> 信箱：<input type="tel" name="password" ></p>
+    <p> 網站：<input type="tel" name="password" ></p>
+
+    <p>選擇生日：<input type="date" value="2020-04-20" min="2020-04-01" max="2022-04-30" step="5">
+    <input type="time" value="06:00" min="02:00" max="22:00" step="5">
+    <br>
+    <input type="submit" value="submit">
+    <input type="reset" value="Reset">
+    <br>
+    <input type="file" accept="image/*,.pdf">
+    <br>
+    <textarea name="mytext" rows="6" cols="40"required>我是多行輸人框..</textarea>
+    <br>
+    <select name="pets">
+    <option value="">請選擇你最愛的寵物</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option> 
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option> 
+    <option disabled value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+
+        </select>
+</form>
+
+</html>
+
