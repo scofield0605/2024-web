@@ -42,5 +42,5 @@ while ptr.color != "red":
 #Insert new node into the linked list.
 new.next = ptr.next
 ptr.next = new
-
+#將新節點×插在串列中任意節點i之後。
 traverse(head)
