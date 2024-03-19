@@ -1,0 +1,43 @@
+h1{
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+
+
+
+
+
+#my-id {
+    color: lightcoral;
+}
+
+#my-id {
+    color: lightblue;
+}
+
+
+.important {
+    color: darkgreen;
+}
+
+.urgent {
+    color: darkred
+}
+
+.ID{
+    border-color: darkviolet; 
+    background-color: lightcoral;
+    color: darkgreen;
+}
+body{background-color:wheat}
+
+body {background-image:url('Facebook\ photo.jpg');
+    background-repeat: repeat-x; background-attachment: fixed;}
+
+
+input {border-color: darkviolet; background-color: lightcoral; color: darkgreen;
+}
+body {background-image:url('Facebook\ photo.jpg');
+background-repeat: no-repeat; background-position: left bottom;}
+

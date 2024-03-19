@@ -1,0 +1,26 @@
+h1{
+    color: darkgreen;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+body{background: rgb(197, 231, 211) }
+
+/* body {background-image:url('logo_tree.png');
+    background-repeat: repeat-x; background-attachment: fixed;} */
+
+
+body {background-image:url('logo_tree.png');
+    background-repeat: no-repeat; background-position:middle;}
+
+
+h3 {
+    color: #018114 ;
+}
+

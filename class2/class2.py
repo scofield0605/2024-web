@@ -43,4 +43,20 @@ while ptr.color != "red":
 new.next = ptr.next
 ptr.next = new
 #將新節點×插在串列中任意節點i之後。
-traverse(head)
+
+
+# Find the element which points to head.
+ptr = head
+while ptr.next!=head:
+    ptr = ptr.next
+head = head.next # Set the new head (The original second node).
+ptr. next = head # Point to new head.
+
+## Its your turn 3.5
+# Find the element before the node you want to delete.
+ptr = head
+while ptr.next.color != "pink":
+    ptr = ptr.next
+# Connect previous node of delete node to next node of delete node.
+ptr.next = ptr.next.next
+traverse (head)
