@@ -1,0 +1,40 @@
+
+p {font-family: ZCOOL KuaiLe, "Noto Sans T Chinese", cursive;}
+
+p {font-weight: lighter;} 
+h5{font-weight: bolder;} 
+h5{font-size: 35px;}
+h5{font-style: italic;}
+p {font-size: 35px;}
+
+#border_test{
+border-top-style: dashed; 
+border-bottom-style: solid; 
+border-color: rgb(72, 160, 112); 
+border-top-width: thin; 
+border-bottom-width: medium;
+}
+
+
+#margin_test {
+    border-style: solid; 
+    border-color: black; 
+    border-width: thin; 
+    margin: 1px 50% 5px 15%;
+}
+
+#hihi{
+    border-style: dashed; 
+    border-color: blue; 
+    border-width: 5px;
+    padding: 1px 50% 25px 15%;
+}
+
+
+
+
+
+
+
+
+

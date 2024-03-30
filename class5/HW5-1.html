@@ -1,0 +1,35 @@
+<!--.表單HTMLs..-->
+<DOCTYPE html></DOCTYPE>
+<html>
+
+<head>
+    <link href="styles/styles1.css" rel="stylesheet" type="text/css" />
+    <title>我的網頁標題</title>
+</head>
+<body>
+<div id="border_test">2024 前端春季班 課程心得表單</div>
+<h3>*About You*</h3>
+<form action="/formprocess-php" method="post">
+    <p>Name:</p>
+    <input type="text" name="account" placeholder="請輸入帳號">
+    <p> Email:</p>
+    <input type="text" name="account" placeholder="請輸入帳號">
+    <p>Birthday and time:</p>
+    <p><input type="date" value="2020-04-20" min="2020-04-01" max="2022-04-30" step="5">
+        <input type="time" value="06:00" min="02:00" max="22:00" step="5">
+    <Hr>
+    <h3>*About Course*</h3>
+    <input type="checkbox" name="Like" value="apple"> Class1: HTML 基本介紹與元素 <br>
+    <input type="checkbox" name="Like" value="Banana"> Class2:HTML 圖片列表與表格 <br>
+    <input type="checkbox" name="Like" value="Pineapple"> Class3: HTML 表單與輪入類型 <br>
+    <p>最有興趣的技能</p>
+        <input type="radio" name="sugar" value="many"> HTML<br>
+        <input type="radio" name="sugar" value="medium"> CSS<br>
+        <input type="radio" name="sugar" value="less"> JavaScript<br>
+    <hr>
+    <h3>*command:*</h3>
+    <textarea name="mytext" rows="6" cols="40"required>留言..</textarea>
+    <br>
+    <input type="submit" value="submit">
+    <input type="reset" value="Reset">
+</body>
