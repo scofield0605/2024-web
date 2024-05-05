@@ -1,0 +1,42 @@
+.title { color: #faa;}
+.title:hover { color: #aaf; }
+
+
+
+div { color: lightcoral;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: lightskyblue;
+    width: 200px;
+    text-align: center; }
+    div:before, div:afterf
+    content after (data-content);
+    color:orange;}
+    div:hover :before, div:hover::after {
+    color: lightyellow;
+    }
+    
+
+.out {
+    display: flex;
+    justify-content: center; align-items: center;
+    width: 200px; height: 200px;
+    border: 3px darkseagreen solid; }
+    .in { display: none;}
+    .out:hover .inin {width: 100px; height: 100px;
+    display: flex;
+    border: 3px lightseagreen dashed; } img {height: 100px;}   
+
+
+.container{ width: 300px;
+    box-shadow: 0 0 0 15px lightskyblue, 0 0 0 30px lightpink;} 
+p { padding: 20px;
+    text-align: justify; line-height: 35px;
+    background: linear-gradient(lightyellow, lightsalmon);
+    border: 3px gray solid;
+
+p::first-letter {
+    color: lightseagreen; font-size:30px; }
+
+
+    

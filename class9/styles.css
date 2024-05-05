@@ -1,0 +1,17 @@
+.outer{
+    background-image: url("/Users/scofield/Documents/python_2024spring/class9/gettyimages-167889617.jpg");
+    border: black solid 2px;
+    background-repeat: no-repeat;
+    width: 500px; height: 500px;
+    background-position: center;
+    background-size: contain;
+    }
+    .outer1{
+        background-image: url("/Users/scofield/Documents/python_2024spring/class9/gettyimages-167889617.jpg");
+        border: black solid 2px;
+        background-repeat: no-repeat;
+        width: 500px; height: 500px;
+        background-position: center;
+        background-size: cover;
+        }
+

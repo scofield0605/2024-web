@@ -1,11 +1,70 @@
-img {float: left;}
+img {
+    float: left;
+}
 
 
-.father {width: 300px;height: 50px;
-    display: flex;flex-direction: row;}
+.father {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    background-color: lightgray;
+}
+
+.child {
+    width: 100px;
+    height: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+    align-self: center;
+}
+
+.blue {
+    background-color: blue;
+    align-self: center;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.orange {
+    background-color: orange;
+}
+
+
+.father1 {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    background-color: lightgray;
+}
+
+.child {
+    width: 100px;
+    height: 50px;
+}
+
+
+
+.father2{width: 550px; height: 200px; display: flex; justify-content: flex-end; align-items: center;
+    flex-direction: row; background-color: lightgray;}
 .child {width: 100px; height: 50px;}
-.red {background-color: red;}
-.yellow {background-color: yellow;}
-.blue {background-color: blue;}
-.purple{background-color: blueviolet;}
-
+.red {background-color: red; order :3;}
+.yellow {background-color: yellow; align-self: flex-start;order: 1;}
+.blue {background-color: blue; align-self: flex-end;order: 5;}
+.purple {background-color: purple;order: 4;} 
+orange {background-color: orange;order: 2;}
